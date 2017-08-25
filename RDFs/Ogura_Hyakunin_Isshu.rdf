@@ -1,0 +1,925 @@
+<rdf:RDF
+    xmlns:jrrk="http://purl.org/jrrk#"
+    xmlns:ic="http://imi.ipa.go.jp/ns/core/rdf#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:pc="http://purl.org/procurement/public-contracts#"
+    xmlns:odp="http://odp.jig.jp/odp/1.0#"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:georss="http://www.georss.org/georss"
+    xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:OguraHyakuninIsshu="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#"
+    >
+  <rdf:Description rdf:about="%E5%A4%A9%E6%99%BA%E5%A4%A9%E7%9A%87_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">1</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">天智天皇</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">秋の田のかりほの庵の苫をあらみ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わが衣手は露にぬれつつ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あきのたのかりほのいほのとまをあらみ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わがころもではつゆにぬれつつ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%8C%81%E7%B5%B1%E5%A4%A9%E7%9A%87_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">2</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">持統天皇</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">春過ぎて夏来にけらし白妙の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">衣干すてふ天の香具山</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">はるすぎてなつきにけらししろたへの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ころもほすてふあまのかぐやま</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%9F%BF%E6%9C%AC%E4%BA%BA%E9%BA%BB%E5%91%82_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">3</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">柿本人麻呂</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あしびきの山鳥の尾のしだり尾の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ながながし夜をひとりかも寝む</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あしびきのやまどりのをのしだりをの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ながながしよをひとりかもねむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%B1%B1%E8%BE%BA%E8%B5%A4%E4%BA%BA_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">4</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">山辺赤人</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">田子の浦にうち出でてみれば白妙の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">富士の高嶺に雪は降りつつ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">たごのうらにうちいでてみればしろたへの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ふじのたかねにゆきはふりつつ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%8C%BF%E4%B8%B8%E5%A4%A7%E5%A4%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">5</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">猿丸大夫</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">奥山に紅葉踏み分け鳴く鹿の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">声聞く時ぞ秋は悲しき</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">おくやまにもみぢふみわけなくしかの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">こゑきくときぞあきはかなしき</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%B8%AD%E7%B4%8D%E8%A8%80%E5%AE%B6%E6%8C%81_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">6</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">中納言家持</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かささぎの渡せる橋に置く霜の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">白きを見れば夜ぞ更けにける</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かささぎのわたせるはしにおくしもの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">しろきをみればよぞふけにける</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%AE%89%E5%80%8D%E4%BB%B2%E9%BA%BB%E5%91%82_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">7</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">安倍仲麻呂</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">天の原ふりさけみれば春日なる</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">三笠の山に出でし月かも</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あまのはらふりさけみればかすがなる</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みかさのやまにいでしつきかも</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%96%9C%E6%92%B0%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">8</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">喜撰法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わが庵は都の辰巳しかぞ住む</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">世をうぢ山と人はいふなり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わがいほはみやこのたつみしかぞすむ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">よをうぢやまとひとはいふなり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%B0%8F%E9%87%8E%E5%B0%8F%E7%94%BA_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">9</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">小野小町</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">花の色は移りにけりないたづらに</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わが身世にふるながめせしまに</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">はなのいろはうつりにけりないたづらに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わがみよにふるながめせしまに</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%9D%89%E4%B8%B8_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">10</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">蝉丸</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">これやこの行くも帰るも別れては</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">知るも知らぬも逢坂の関</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">これやこのゆくもかへるもわかれては</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">しるもしらぬもあふさかのせき</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%8F%82%E8%AD%B0%E7%AF%81_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">11</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">参議篁</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わたの原八十島かけて漕ぎ出でぬと</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人にはつげよ海人の釣船</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わたのはらやそしまかけてこぎいでぬと</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとにはつげよあまのつりぶね</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%83%A7%E6%AD%A3%E9%81%8D%E6%98%AD_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">12</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">僧正遍昭</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">天つ風雲の通ひ路吹きとぢよ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">乙女の姿しばしとどめむ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あまつかぜくものかよひぢふきとぢよ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">をとめのすがたしばしとどめむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E9%99%BD%E6%88%90%E9%99%A2_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">13</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">陽成院</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">筑波嶺の峰より落つるみなの川</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">恋ぞつもりて淵となりぬる</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">つくばねのみねよりおつるみなのがは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">こひぞつもりてふちとなりぬる</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%B2%B3%E5%8E%9F%E5%B7%A6%E5%A4%A7%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">14</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">河原左大臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">陸奥のしのぶもぢずりたれゆえに</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">乱れそめにしわれならなくに</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みちのくのしのぶもぢずりたれゆゑに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みだれそめにしわれならなくに</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%85%89%E5%AD%9D%E5%A4%A9%E7%9A%87_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">15</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">光孝天皇</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">君がため春の野に出でて若菜摘む</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わが衣手に雪は降りつつ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">きみがためはるののにいでてわかなつむ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わがころもでにゆきはふりつつ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%B8%AD%E7%B4%8D%E8%A8%80%E8%A1%8C%E5%B9%B3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">16</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">中納言行平</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">立ち別れいなばの山の峰に生ふる</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">まつとし聞かば今帰り来む</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">たちわかれいなばのやまのみねにおふる</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">まつとしきかばいまかへりこむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%9C%A8%E5%8E%9F%E6%A5%AD%E5%B9%B3%E6%9C%9D%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">17</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">在原業平朝臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ちはやぶる神代も聞かず竜田川</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">から紅に水くくるとは</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ちはやぶるかみよもきかずたつたがは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">からくれなゐにみづくくるとは</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%97%A4%E5%8E%9F%E6%95%8F%E8%A1%8C%E6%9C%9D%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">18</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">藤原敏行朝臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">住の江の岸に寄る波よるさへや</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">夢の通ひ路人目よくらむ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">すみのえのきしによるなみよるさへや</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ゆめのかよひぢひとめよくらむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%BC%8A%E5%8B%A2_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">19</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">伊勢</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">難波潟短き葦のふしの間も</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">逢はでこの世を過ぐしてよとや</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なにはがたみじかきあしのふしのまも</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あはでこのよをすぐしてよとや</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%85%83%E8%89%AF%E8%A6%AA%E7%8E%8B_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">20</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">元良親王</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わびぬれば今はた同じ難波なる</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">身をつくしても逢はむとぞ思ふ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わびぬればいまはたおなじなにはなる</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みをつくしてもあはむとぞおもふ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%B4%A0%E6%80%A7%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">21</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">素性法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">今来むといひしばかりに長月の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">有明の月を待ち出でつるかな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いまこむといひしばかりにながつきの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ありあけのつきをまちいでつるかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%96%87%E5%B1%8B%E5%BA%B7%E7%A7%80_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">22</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">文屋康秀</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">吹くからに秋の草木のしをるれば</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">むべ山風を嵐といふらむ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ふくからにあきのくさきのしをるれば</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">むべやまかぜをあらしといふらむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%A4%A7%E6%B1%9F%E5%8D%83%E9%87%8C_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">23</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">大江千里</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">月見れば千々にものこそ悲しけれ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わが身ひとつの秋にはあらねど</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">つきみればちぢにものこそかなしけれ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わがみひとつのあきにはあらねど</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%8F%85%E5%AE%B6_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">24</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">菅家</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">このたびは幣もとりあへず手向山</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">紅葉の錦神のまにまに</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">このたびはぬさもとりあへずたむけやま</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">もみぢのにしきかみのまにまに</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%B8%89%E6%9D%A1%E5%8F%B3%E5%A4%A7%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">25</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">三条右大臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">名にし負はば逢坂山のさねかずら</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人に知られでくるよしもがな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なにしおはばあふさかやまのさねかづら</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとにしられでくるよしもがな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%B2%9E%E4%BF%A1%E5%85%AC_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">26</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">貞信公</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">小倉山峰のもみぢ葉心あらば</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">今ひとたびのみゆき待たなむ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">をぐらやまみねのもみぢばこころあらば</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いまひとたびのみゆきまたなむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%B8%AD%E7%B4%8D%E8%A8%80%E5%85%BC%E8%BC%94_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">27</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">中納言兼輔</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みかの原わきて流るる泉川</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いつ見きとてか恋しかるらむ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みかのはらわきてながるるいづみがは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いつみきとてかこひしかるらむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%BA%90%E5%AE%97%E4%BA%8E%E6%9C%9D%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">28</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">源宗于朝臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">山里は冬ぞ寂しさまさりける</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人目も草もかれぬと思へば</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">やまざとはふゆぞさびしさまさりける</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとめもくさもかれぬとおもへば</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%87%A1%E6%B2%B3%E5%86%85%E8%BA%AC%E6%81%92_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">29</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">凡河内躬恒</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">心あてに折らばや折らむ初霜の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">置きまどはせる白菊の花</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">こころあてにをらばやをらむはつしもの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">おきまどはせるしらぎくのはな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%A3%AC%E7%94%9F%E5%BF%A0%E5%B2%91_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">30</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">壬生忠岑</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">有明のつれなく見えし別れより</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">暁ばかり憂きものはなし</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ありあけのつれなくみえしわかれより</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あかつきばかりうきものはなし</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%9D%82%E4%B8%8A%E6%98%AF%E5%89%87_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">31</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">坂上是則</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">朝ぼらけ有明の月と見るまでに</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">吉野の里に降れる白雪</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あさぼらけありあけのつきとみるまでに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string"> よしののさとに ふれるしらゆき</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%98%A5%E9%81%93%E5%88%97%E6%A8%B9_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">32</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">春道列樹</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">山川に風のかけたるしがらみは</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">流れもあへぬ紅葉なりけり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">やまがはにかぜのかけたるしがらみは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ながれもあへぬもみぢなりけり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%B4%80%E5%8F%8B%E5%89%87_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">33</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">紀友則</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひさかたの光のどけき春の日に</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">しづ心なく花の散るらむ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひさかたのひかりのどけきはるのひに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">しづこころなくはなのちるらむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%97%A4%E5%8E%9F%E8%88%88%E9%A2%A8_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">34</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">藤原興風</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">誰をかも知る人にせむ高砂の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">松も昔の友ならなくに</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">たれをかもしるひとにせむたかさごの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">まつもむかしのともならなくに</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%B4%80%E8%B2%AB%E4%B9%8B_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">35</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">紀貫之</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人はいさ心も知らずふるさとは</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">花ぞ昔の香に匂ひける</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとはいさこころもしらずふるさとは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">はなぞむかしのかににほひける</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%B8%85%E5%8E%9F%E6%B7%B1%E9%A4%8A%E7%88%B6_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">36</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">清原深養父</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">夏の夜はまだ宵ながら明けぬるを</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">雲のいずこに月宿るらむ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なつのよはまだよひながらあけぬるを</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">くものいづこにつきやどるらむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%96%87%E5%B1%8B%E6%9C%9D%E5%BA%B7_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">37</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">文屋朝康</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">白露に風の吹きしく秋の野は</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">つらぬきとめぬ玉ぞ散りける</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">しらつゆにかぜのふきしくあきののは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">つらぬきとめぬたまぞちりける</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%8F%B3%E8%BF%91_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">38</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">右近</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">忘らるる身をば思はず誓ひてし</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人の命の惜しくもあるかな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わすらるるみをばおもはずちかひてし</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとのいのちのをしくもあるかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%8F%82%E8%AD%B0%E7%AD%89_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">39</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">参議等</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">浅茅生の小野の篠原忍ぶれど</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あまりてなどか人の恋しき</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あさぢふのをののしのはらしのぶれど</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あまりてなどかひとのこひしき</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%B9%B3%E5%85%BC%E7%9B%9B_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">40</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">平兼盛</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">忍ぶれど色に出でにけりわが恋は</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ものや思ふと人の問ふまで</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">しのぶれどいろにいでにけりわがこひは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ものやおもふとひとのとふまで</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%A3%AC%E7%94%9F%E5%BF%A0%E8%A6%8B_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">41</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">壬生忠見</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">恋すてふわが名はまだき立ちにけり</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人知れずこそ思ひそめしか</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">こひすてふわがなはまだきたちにけり</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとしれずこそおもひそめしか</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%B8%85%E5%8E%9F%E5%85%83%E8%BC%94_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">42</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">清原元輔</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">契りきなかたみに袖をしぼりつつ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">末の松山波越さじとは</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ちぎりきなかたみにそでをしぼりつつ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">すゑのまつやまなみこさじとは</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%A8%A9%E4%B8%AD%E7%B4%8D%E8%A8%80%E6%95%A6%E5%BF%A0_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">43</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">権中納言敦忠</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">逢ひ見ての後の心にくらぶれば</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">昔はものを思はざりけり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あひみてののちのこころにくらぶれば</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">むかしはものをおもはざりけり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%B8%AD%E7%B4%8D%E8%A8%80%E6%9C%9D%E5%BF%A0_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">44</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">中納言朝忠</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">逢ふことの絶えてしなくはなかなかに</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人をも身をも恨みざらまし</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あふことのたえてしなくはなかなかに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとをもみをもうらみざらまし</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%AC%99%E5%BE%B3%E5%85%AC_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">45</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">謙徳公</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あはれともいふべき人は思ほえで</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">身のいたずらになりぬべきかな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あはれともいふべきひとはおもほえで</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みのいたづらになりぬべきかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%9B%BE%E7%A6%B0%E5%A5%BD%E5%BF%A0_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">46</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">曾禰好忠</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">由良の戸を渡る舟人かぢをたえ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ゆくへも知らぬ恋の道かな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ゆらのとをわたるふなびとかぢをたえ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ゆくへもしらぬこひのみちかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%81%B5%E6%85%B6%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">47</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">恵慶法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">八重むぐら茂れる宿のさびしきに</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人こそ見えね秋は来にけり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">やへむぐらしげれるやどのさびしきに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとこそみえねあきはきにけり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%BA%90%E9%87%8D%E4%B9%8B_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">48</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">源重之</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">風をいたみ岩うつ波のおのれのみ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">くだけてものを思ふころかな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かぜをいたみいはうつなみのおのれのみ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">くだけてものをおもふころかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%A4%A7%E4%B8%AD%E8%87%A3%E8%83%BD%E5%AE%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">49</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">大中臣能宣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">御垣守衛士のたく火の夜は燃え</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">昼は消えつつものをこそ思へ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みかきもりゑじのたくひのよるはもえ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひるはきえつつものをこそおもへ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%97%A4%E5%8E%9F%E7%BE%A9%E5%AD%9D_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">50</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">藤原義孝</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">君がため惜しからざりし命さへ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">長くもがなと思ひけるかな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">きみがためをしからざりしいのちさへ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ながくもがなとおもひけるかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%97%A4%E5%8E%9F%E5%AE%9F%E6%96%B9%E6%9C%9D%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">51</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">藤原実方朝臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かくとだにえやはいぶきのさしも草</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">さしも知らじな燃ゆる思ひを</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かくとだにえやはいぶきのさしもぐさ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">さしもしらじなもゆるおもひを</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%97%A4%E5%8E%9F%E9%81%93%E4%BF%A1%E6%9C%9D%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">52</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">藤原道信朝臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">明けぬれば暮るるものとは知りながら</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なほ恨めしき朝ぼらけかな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あけぬればくるるものとはしりながら</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なほうらめしきあさぼらけかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%8F%B3%E5%A4%A7%E5%B0%86%E9%81%93%E7%B6%B1%E6%AF%8D_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">53</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">右大将道綱母</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">嘆きつつひとり寝る夜の明くる間は</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いかに久しきものとかは知る</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なげきつつひとりぬるよのあくるまは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いかにひさしきものとかはしる</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%84%80%E5%90%8C%E4%B8%89%E5%8F%B8%E6%AF%8D_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">54</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">儀同三司母</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">忘れじの行く末まではかたければ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">今日をかぎりの命ともがな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わすれじのゆくすゑまではかたければ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">けふをかぎりのいのちともがな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%A4%A7%E7%B4%8D%E8%A8%80%E5%85%AC%E4%BB%BB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">55</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">大納言公任</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">滝の音は絶えて久しくなりぬれど</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">名こそ流れてなほ聞こえけれ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">たきのおとはたえてひさしくなりぬれど</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なこそながれてなほきこえけれ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%92%8C%E6%B3%89%E5%BC%8F%E9%83%A8_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">56</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">和泉式部</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あらざらむこの世のほかの思ひ出に</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">今ひとたびの逢ふこともがな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あらざらむこのよのほかのおもひでに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いまひとたびのあふこともがな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%B4%AB%E5%BC%8F%E9%83%A8_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">57</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">紫式部</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">めぐり逢ひて見しやそれとも分かぬ間に</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">雲隠れにし夜半の月かな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">めぐりあひてみしやそれともわかぬまに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">くもがくれにしよはのつきかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%A4%A7%E5%BC%90%E4%B8%89%E4%BD%8D_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">58</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">大弐三位</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">有馬山猪名の笹原風吹けば</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いでそよ人を忘れやはする</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ありまやまゐなのささはらかぜふけば</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いでそよひとをわすれやはする</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%B5%A4%E6%9F%93%E8%A1%9B%E9%96%80_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">59</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">赤染衛門</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">やすらはで寝なましものを小夜更けて</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かたぶくまでの月を見しかな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">やすらはでねなましものをさよふけて</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かたぶくまでのつきをみしかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%B0%8F%E5%BC%8F%E9%83%A8%E5%86%85%E4%BE%8D_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">60</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">小式部内侍</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">大江山いく野の道の遠ければ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">まだふみも見ず天の橋立</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">おほえやまいくののみちのとほければ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">まだふみもみずあまのはしだて</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%BC%8A%E5%8B%A2%E5%A4%A7%E8%BC%94_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">61</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">伊勢大輔</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いにしへの奈良の都の八重桜</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">けふ九重に匂ひぬるかな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いにしへのならのみやこのやへざくら</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">けふここのへににほひぬるかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%B8%85%E5%B0%91%E7%B4%8D%E8%A8%80_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">62</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">清少納言</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">夜をこめて鳥のそら音ははかるとも</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">よに逢坂の関はゆるさじ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">よをこめてとりのそらねははかるとも</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">よにあふさかのせきはゆるさじ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%B7%A6%E4%BA%AC%E5%A4%A7%E5%A4%AB%E9%81%93%E9%9B%85_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">63</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">左京大夫道雅</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">今はただ思ひ絶えなむとばかりを</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人づてならでいふよしもがな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いまはただおもひたえなむとばかりを</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとづてならでいふよしもがな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%A8%A9%E4%B8%AD%E7%B4%8D%E8%A8%80%E5%AE%9A%E9%A0%BC_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">64</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">権中納言定頼</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">朝ぼらけ宇治の川霧たえだえに</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あらはれわたる瀬々の網代木</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あさぼらけうぢのかはぎりたえだえに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あらはれわたるせぜのあじろぎ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%9B%B8%E6%A8%A1_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">65</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">相模</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">恨みわび干さぬ袖だにあるものを</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">恋に朽ちなむ名こそ惜しけれ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">うらみわびほさぬそでだにあるものを</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">こひにくちなむなこそをしけれ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%89%8D%E5%A4%A7%E5%83%A7%E6%AD%A3%E8%A1%8C%E5%B0%8A_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">66</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">前大僧正行尊</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">もろともにあはれと思え山桜</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">花よりほかに知る人もなし</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">もろともにあはれとおもへやまざくら</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">はなよりほかにしるひともなし</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%91%A8%E9%98%B2%E5%86%85%E4%BE%8D_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">67</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">周防内侍</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">春の夜の夢ばかりなる手枕に</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かひなく立たむ名こそ惜しけれ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">はるのよのゆめばかりなるたまくらに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かひなくたたむなこそをしけれ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%B8%89%E6%9D%A1%E9%99%A2_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">68</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">三条院</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">心にもあらで憂き夜にながらへば</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">恋しかるべき夜半の月かな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">こころにもあらでうきよにながらへば</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">こひしかるべきよはのつきかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%83%BD%E5%9B%A0%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">69</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">能因法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">嵐ふく三室の山のもみぢ葉は</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">竜田の川の錦なりけり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あらしふくみむろのやまのもみぢばは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">たつたのかはのにしきなりけり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%89%AF%E6%9A%B9%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">70</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">良暹法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">寂しさに宿を立ち出でてながむれば</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いづこも同じ秋の夕暮れ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">さびしさにやどをたちいでてながむれば</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いづこもおなじあきのゆふぐれ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%A4%A7%E7%B4%8D%E8%A8%80%E7%B5%8C%E4%BF%A1_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">71</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">大納言経信</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">夕されば門田の稲葉おとづれて</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">葦のまろやに秋風ぞ吹く</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ゆふさればかどたのいなばおとづれて</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あしのまろやにあきかぜぞふく</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%A5%90%E5%AD%90%E5%86%85%E8%A6%AA%E7%8E%8B%E5%AE%B6%E7%B4%80%E4%BC%8A_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">72</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">祐子内親王家紀伊</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">音に聞く高師の浜のあだ波は</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かけじや袖のぬれもこそすれ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">おとにきくたかしのはまのあだなみは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かけじやそでのぬれもこそすれ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%A8%A9%E4%B8%AD%E7%B4%8D%E8%A8%80%E5%8C%A1%E6%88%BF_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">73</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">権中納言匡房</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">高砂の尾の上の桜咲きにけり</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">外山の霞立たずもあらなむ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">たかさごのをのへのさくらさきにけり</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">とやまのかすみたたずもあらなむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%BA%90%E4%BF%8A%E9%A0%BC%E6%9C%9D%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">74</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">源俊頼朝臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">憂かりける人を初瀬の山おろしよ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">はげしかれとは祈らぬものを</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">うかりけるひとをはつせのやまおろしよ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">はげしかれとはいのらぬものを</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%97%A4%E5%8E%9F%E5%9F%BA%E4%BF%8A_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">75</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">藤原基俊</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">契りおきしさせもが露を命にて</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あはれ今年の秋もいぬめり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ちぎりおきしさせもがつゆをいのちにて</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あはれことしのあきもいぬめり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%B3%95%E6%80%A7%E5%AF%BA%E5%85%A5%E9%81%93%E5%89%8D%E9%96%A2%E7%99%BD%E5%A4%AA%E6%94%BF%E5%A4%A7%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">76</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">法性寺入道前関白太政大臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わたの原漕ぎ出でて見ればひさかたの</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">雲居にまがふ沖つ白波</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わたのはらこぎいでてみればひさかたの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">くもゐにまがふおきつしらなみ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%B4%87%E5%BE%B3%E9%99%A2_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">77</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">崇徳院</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">瀬をはやみ岩にせかるる滝川の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">われても末に逢はむとぞ思ふ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">せをはやみいはにせかるるたきがはの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">われてもすゑにあはむとぞおもふ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%BA%90%E5%85%BC%E6%98%8C_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">78</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">源兼昌</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">淡路島通ふ千鳥の鳴く声に</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いく夜寝覚めぬ須磨の関守</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あはぢしまかよふちどりのなくこゑに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">いくよねざめぬすまのせきもり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%B7%A6%E4%BA%AC%E5%A4%A7%E5%A4%AB%E9%A1%95%E8%BC%94_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">79</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">左京大夫顕輔</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">秋風にたなびく雲のたえ間より</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">もれ出づる月の影のさやけさ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あきかぜにたなびくくものたえまより</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">もれいづるつきのかげのさやけさ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%BE%85%E8%B3%A2%E9%96%80%E9%99%A2%E5%A0%80%E6%B2%B3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">80</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">待賢門院堀河</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ながからむ心も知らず黒髪の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">乱れてけさはものをこそ思へ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ながからむこころもしらずくろかみの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みだれてけさはものをこそおもへ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%BE%8C%E5%BE%B3%E5%A4%A7%E5%AF%BA%E5%B7%A6%E5%A4%A7%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">81</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">後徳大寺左大臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ほととぎす鳴きつる方をながむれば</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ただ有明の月ぞ残れる</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ほととぎすなきつるかたをながむれば</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ただありあけのつきぞのこれる</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E9%81%93%E5%9B%A0%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">82</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">道因法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">思ひわびさても命はあるものを</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">憂きに堪へぬは涙なりけり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">おもひわびさてもいのちはあるものを</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">うきにたへぬはなみだなりけり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%9A%87%E5%A4%AA%E5%90%8E%E5%AE%AE%E5%A4%A7%E5%A4%AB%E4%BF%8A%E6%88%90_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">83</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">皇太后宮大夫俊成</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">世の中よ道こそなけれ思ひ入る</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">山の奥にも鹿ぞ鳴くなる</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">よのなかよみちこそなけれおもひいる</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">やまのおくにもしかぞなくなる</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%97%A4%E5%8E%9F%E6%B8%85%E8%BC%94%E6%9C%9D%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">84</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">藤原清輔朝臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ながらへばまたこのごろやしのばれむ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">憂しと見し世ぞ今は恋しき</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ながらへばまたこのごろやしのばれむ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">うしとみしよぞいまはこひしき</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%BF%8A%E6%81%B5%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">85</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">俊恵法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">夜もすがらもの思ふころは明けやらで</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ねやのひまさへつれなかりけり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">よもすがらものおもふころはあけやらで</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ねやのひまさへつれなかりけり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E8%A5%BF%E8%A1%8C%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">86</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">西行法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">嘆けとて月やはものを思はする</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かこち顔なるわが涙かな</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なげけとてつきやはものをおもはする</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かこちがほなるわがなみだかな</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%AF%82%E8%93%AE%E6%B3%95%E5%B8%AB_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">87</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">寂蓮法師</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">村雨の露もまだ干ぬまきの葉に</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">霧立ちのぼる秋の夕暮</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">むらさめのつゆもまだひぬまきのはに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">きりたちのぼるあきのゆふぐれ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E7%9A%87%E5%98%89%E9%96%80%E9%99%A2%E5%88%A5%E5%BD%93_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">88</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">皇嘉門院別当</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">難波江の葦のかりねのひとよゆゑ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">身をつくしてや恋ひわたるべき</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なにはえのあしのかりねのひとよゆゑ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みをつくしてやこひわたるべき</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%BC%8F%E5%AD%90%E5%86%85%E8%A6%AA%E7%8E%8B_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">89</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">式子内親王</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">玉の緒よ絶えなば絶えねながらへば</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">忍ぶることの弱りもぞする</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">たまのをよたえなばたえねながらへば</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">しのぶることのよわりもぞする</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%AE%B7%E5%AF%8C%E9%96%80%E9%99%A2%E5%A4%A7%E8%BC%94_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">90</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">殷富門院大輔</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">見せばやな雄島の海人の袖だにも</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">濡れにぞ濡れし色は変はらず</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みせばやなをじまのあまのそでだにも</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ぬれにぞぬれしいろはかはらず</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%BE%8C%E4%BA%AC%E6%A5%B5%E6%91%82%E6%94%BF%E5%89%8D%E5%A4%AA%E6%94%BF%E5%A4%A7%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">91</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">後京極摂政前太政大臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">きりぎりす鳴くや霜夜のさむしろに</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">衣かたしきひとりかも寝む</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">きりぎりすなくやしもよのさむしろに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ころもかたしきひとりかもねむ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E4%BA%8C%E6%9D%A1%E9%99%A2%E8%AE%83%E5%B2%90_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">92</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">二条院讃岐</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わが袖は潮干に見えぬ沖の石の</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人こそ知らねかわく間もなし</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わがそではしほひにみえぬおきのいしの</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひとこそしらねかわくまもなし</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E9%8E%8C%E5%80%89%E5%8F%B3%E5%A4%A7%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">93</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">鎌倉右大臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">世の中は常にもがもな渚漕ぐ</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">海人の小舟の綱手かなしも</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">よのなかはつねにもがもななぎさこぐ</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">あまのをぶねのつなでかなしも</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%8F%82%E8%AD%B0%E9%9B%85%E7%B5%8C_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">94</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">参議雅経</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">み吉野の山の秋風小夜更けて</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ふるさと寒く衣うつなり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みよしののやまのあきかぜさよふけて</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ふるさとさむくころもうつなり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%89%8D%E5%A4%A7%E5%83%A7%E6%AD%A3%E6%85%88%E5%86%86_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">95</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">前大僧正慈円</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">おほけなく憂き世の民におほふかな</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わが立つ杣にすみ染の袖</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">おほけなくうきよのたみにおほふかな</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">わがたつそまにすみぞめのそで</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%85%A5%E9%81%93%E5%89%8D%E5%A4%AA%E6%94%BF%E5%A4%A7%E8%87%A3_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">96</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">入道前太政大臣</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">花さそふ嵐の庭の雪ならで</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ふりゆくものはわが身なりけり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">はなさそふあらしのにはのゆきならで</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ふりゆくものはわがみなりけり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E6%A8%A9%E4%B8%AD%E7%B4%8D%E8%A8%80%E5%AE%9A%E5%AE%B6_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">97</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">権中納言定家</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">来ぬ人を松帆の浦の夕なぎに</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">焼くや藻塩の身もこがれつつ</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">こぬひとをまつほのうらのゆふなぎに</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">やくやもしほのみもこがれつつ</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%BE%93%E4%BA%8C%E4%BD%8D%E5%AE%B6%E9%9A%86_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">98</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">従二位家隆</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">風そよぐ楢の小川の夕暮は</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みそぎぞ夏のしるしなりける</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">かぜそよぐならのをがはのゆふぐれは</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">みそぎぞなつのしるしなりける</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E5%BE%8C%E9%B3%A5%E7%BE%BD%E9%99%A2_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">99</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">後鳥羽院</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">人もをし人もうらめしあじきなく</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">世を思ふゆゑにもの思ふ身は</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ひともをしひともうらめしあぢきなく</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">よをおもふゆゑにものおもふみは</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="%E9%A0%86%E5%BE%B3%E9%99%A2_Phrase">
+    <OguraHyakuninIsshu:Number rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">100</OguraHyakuninIsshu:Number>
+    <OguraHyakuninIsshu:Poet rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">順徳院</OguraHyakuninIsshu:Poet>
+    <OguraHyakuninIsshu:UpperPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">百敷や古き軒端のしのぶにも</OguraHyakuninIsshu:UpperPhrase>
+    <OguraHyakuninIsshu:LowerPhrase rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なほあまりある昔なりけり</OguraHyakuninIsshu:LowerPhrase>
+    <OguraHyakuninIsshu:UpperPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">ももしきやふるきのきばのしのぶにも</OguraHyakuninIsshu:UpperPhrase_Kana>
+    <OguraHyakuninIsshu:LowerPhrase_Kana rdf:datatype="https://www.w3.org/TR/xmlschema11-2/#string">なほあまりあるむかしなりけり</OguraHyakuninIsshu:LowerPhrase_Kana>
+    <rdf:type rdf:resource="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#Phrase"/>
+  </rdf:Description>
+
+</rdf:RDF>
