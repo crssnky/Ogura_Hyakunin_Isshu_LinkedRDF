@@ -1,0 +1,2 @@
+# Ogura_Hyakunin_Isshu_LinkedRDF
+小倉百人一首のLinkedRDF
