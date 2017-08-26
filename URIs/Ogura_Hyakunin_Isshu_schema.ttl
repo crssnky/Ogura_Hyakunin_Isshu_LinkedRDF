@@ -25,9 +25,9 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#>.
 @prefix reg: <http://purl.org/metainfo/terms/registry#> .
-@prefix OguraHyakuninIsshu: <https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#>
+@prefix OguraHyakuninIsshu: <https://sparql.crssnky.xyz/Ogura_Hyakunin_Isshu_LinkedRDF/URIs/Ogura_Hyakunin_Isshu_schema.ttl#>
 
-<https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#>
+<https://sparql.crssnky.xyz/Ogura_Hyakunin_Isshu_LinkedRDF/URIs/Ogura_Hyakunin_Isshu_schema.ttl#>
         a                owl:Ontology ;
         rdfs:label       "Ogura_Hyakunin_Isshu-語彙"@ja ;
         dcterms:creator  [ foaf:homepage  <https://sparql.crssnky.xyz/OguraHyakuninIsshu/> ;

@@ -19,7 +19,7 @@
     xmlns:georss="http://www.georss.org/georss"
     xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-    xmlns:OguraHyakuninIsshu="https://sparql.crssnky.xyz/OguraHyakuninIsshu/URIs/Ogura_Hyakunin_Isshu_schema.ttl#"
+    xmlns:OguraHyakuninIsshu="https://sparql.crssnky.xyz/Ogura_Hyakunin_Isshu_LinkedRDF/URIs/Ogura_Hyakunin_Isshu_schema.ttl#"
     >
   <rdf:Description rdf:about="%E5%A4%A9%E6%99%BA%E5%A4%A9%E7%9A%87_Phrase">
     <OguraHyakuninIsshu:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</OguraHyakuninIsshu:Number>
